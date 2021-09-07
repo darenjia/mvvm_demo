@@ -22,7 +22,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class BaseWebView extends WebView implements XiangxueWebviewClient.WebviewTouch {
-    private static final String TAG = "XiangxueWebView";
+    private static final String TAG = "WebView";
     public static final String CONTENT_SCHEME = "file:///android_asset/";
     protected Context context;
     private WebViewCallBack webViewCallBack;
